@@ -23,37 +23,18 @@ namespace BizzFuzz
             string _input = Console.ReadLine();
             int input = int.Parse(_input);
             Console.Clear();
+                     
+                     
+            int[] range = Enumerable.Range(1, input).ToArray();
 
-            string[] display = new string[input];
-
+            string[] test = range.Select(x => (x % 3 == 0) ? "Fizz" : (x % 5 == 0) ? "Buzz" : x.ToString())
             
-            for (int i = 1; i < input + 1; i++)
+            .ToArray();
+
+            foreach (var item in test)
             {
-
-               
-                if (i % 3 == 0)
-                {
-                    display[i - 1] = "Fizz";
-                }
-                else if (i % 5 == 0)
-                {
-                    display[i - 1] = "Buzz";
-                }
-                else
-                {
-
-                    display[i - 1] = i.ToString();
-                }
+                Console.WriteLine(item);
             }
-
-                        
-          // dl(display);
-
-
-            int[] L_display = new int[input];
-            L_display = Enumerable.Range(1, input).ToArray();
-
-            
             
 
 
