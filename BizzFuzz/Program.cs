@@ -29,6 +29,8 @@ namespace BizzFuzz
             
             for (int i = 1; i < input + 1; i++)
             {
+
+               
                 if (i % 3 == 0)
                 {
                     display[i - 1] = "Fizz";
@@ -44,7 +46,16 @@ namespace BizzFuzz
                 }
             }
 
-            dl(display);
+                        
+          // dl(display);
+
+
+            int[] L_display = new int[input];
+            L_display = Enumerable.Range(1, input).ToArray();
+
+            
+            
+
 
             Console.ReadKey();
 
