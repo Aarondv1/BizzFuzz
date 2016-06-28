@@ -1,0 +1,6 @@
+c:\users\aaro\documents\visual studio 2015\Projects\BizzFuzz\BizzFuzz\bin\Debug\BizzFuzz.exe.config
+c:\users\aaro\documents\visual studio 2015\Projects\BizzFuzz\BizzFuzz\bin\Debug\BizzFuzz.exe
+c:\users\aaro\documents\visual studio 2015\Projects\BizzFuzz\BizzFuzz\bin\Debug\BizzFuzz.pdb
+c:\users\aaro\documents\visual studio 2015\Projects\BizzFuzz\BizzFuzz\obj\Debug\BizzFuzz.csprojResolveAssemblyReference.cache
+c:\users\aaro\documents\visual studio 2015\Projects\BizzFuzz\BizzFuzz\obj\Debug\BizzFuzz.exe
+c:\users\aaro\documents\visual studio 2015\Projects\BizzFuzz\BizzFuzz\obj\Debug\BizzFuzz.pdb
